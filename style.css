@@ -64,6 +64,13 @@ font-size:20px;
     margin:10px;
 }
 
-form{
-   
+.main-text>form{
+    font-size:30px;
+    font-weight: bold;
+ 
+}
+
+.class-1{
+    display: flex;
+    gap:10px;
 }
