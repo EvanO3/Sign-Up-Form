@@ -29,15 +29,18 @@ font-size:20px;
     justify-content: center;
     align-items: center;
     position: fixed;
-    height: 1000px;
+    height:70vh;
     width: 40%;
-    color:var(--text-colour);
+    color:lightgrey;
+    font-weight: bold;
+    font-size: 70px;
 
 }
 
-title>p{
-    font-size: 100px;
-    font-weight: 600px; 
-    color:var(--text-colour);
-}
 
+
+.title>p{
+    background:black;
+    padding:30px;
+    opacity:0.5;
+}
