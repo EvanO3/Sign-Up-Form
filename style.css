@@ -11,10 +11,11 @@ body {
     background: url(/img/background.jpg);
     background-size:cover;
     height:100vh;
-    width:40vw;
+    width: 40vw;
     --text-colour: white;
-
 }
+
+
 
 .credit{
 display:flex;
@@ -32,7 +33,7 @@ font-size:20px;
     align-items: center;
     position: fixed;
     height:70vh;
-    width: 30%;
+    width: 28.5%;
     color:lightgrey;
     font-weight: bold;
     font-size: 70px;
@@ -44,7 +45,7 @@ font-size:20px;
 
 .title>p{
     background:black;
-    padding:30px;
+    padding:20px;
     opacity:0.5;
 }
 
@@ -111,9 +112,8 @@ button{
   color:white;
 }
 
-.error{
-    border: solid red;
-    
+input:invalid:required{
+    border:red;
 }
 
 
@@ -125,4 +125,11 @@ input:focus{
 
 .main-text>.log_in{
     font-size:25px;
+}
+
+
+.main-text>.Motivation{
+    font-weight:bolder;
+    color:rgb(32,32,32);
+    font-size: 40px;;
 }
