@@ -23,7 +23,7 @@
             to help you realized your deepest dreams. Sign up to get started!
         </p>
      
-        <p>You know what to do.</p>
+        <p class ='Motivation'>You know what to do.</p>
  
 
         <form action="" method="post">
@@ -44,17 +44,17 @@
     <div class="class-2">
         <div>
        <label for ="Email">Email</label>
-       <input type="email" id="Email" name="Email" size="50" required>
+       <input type="email" id="Email" name="Email" size="50" placeholder="you@example.com" required>
     </div>
        <div>
        <label for ="Phone_Number">Phone Number</label>
-       <input type="tel" id="Phone_Number" name="Phone_Number" size="50" required>
+       <input type="tel" id="Phone_Number" name="Phone_Number"  size="50"   pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
     </div>
     </div>
     <div class="class-3">
         <div>
             <label for = "password">Password</label>
-            <input type="password"  class ="error" id="Password" name="'Password" size="50"required>
+            <input type="password"  class ="error" id="Password" name="Password" size="50" required pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d]{8,25}$">
         </div>
         <div>
             <label for = "password">Confirm password</label>
@@ -66,9 +66,6 @@
         <button type ='submit' id = 'create-account'>Create Account</button>
         </form>
         <p class="log_in">Already have an account? <a href="#">Log In</a></p>
-
-       
-
 
     </div>
 </body>
