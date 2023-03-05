@@ -110,3 +110,19 @@ button{
   background-color:black;
   color:white;
 }
+
+.error{
+    border: solid red;
+    
+}
+
+
+input:focus{
+    outline: none;
+    border-color: rgb(65,105,225);
+    box-shadow: 3px 3px lightblue; 
+}
+
+.main-text>.log_in{
+    font-size:25px;
+}
