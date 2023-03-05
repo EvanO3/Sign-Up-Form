@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Cormorant Garamond', serif;
+    background-color: 	rgb(245,245,245)
   }
 
 .illusion-img{
@@ -53,19 +54,20 @@ font-size:20px;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
+  font-weight: bolder;
  
 }
 
 .main-text>p{
     font-size:30px;
-    font-weight: bold;
+    font-weight: bolder;
     padding:50px;
     margin:10px;
 }
 
 .main-text>form{
     font-size:30px;
-    font-weight: bold;
+    font-weight: bolder;
  
 }
 
@@ -83,7 +85,7 @@ label{
 }
 form{
     width:70vw;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    
     
 }
 
@@ -95,5 +97,16 @@ input{
 
 fieldset{
     border:0;
-    
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+button{
+    padding: 20px;
+    width:20%;
+  border-radius: 12px;
+  margin-top: 30px;
+  margin-left: 30px;
+  font-weight: bold;
+  background-color:black;
+  color:white;
 }
